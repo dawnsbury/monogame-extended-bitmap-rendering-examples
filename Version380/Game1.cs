@@ -50,7 +50,7 @@ public class Game1 : Game
 
         // TODO: Add your drawing code here
         _spriteBatch.Begin();
-        _spriteBatch.DrawString(_bitmapFont, "Hello, world!", new Vector2(10,10), Color.Black);
+        _spriteBatch.DrawString(_bitmapFont, "The effects are determined by the target's Will save.\n\nOn a critical failure, the target becomes dominated\nuntil the end of your next turn or until you fall\nunconscious, whichever comes first.", new Vector2(10,10), Color.Black);
         _spriteBatch.End();
 
         base.Draw(gameTime);
