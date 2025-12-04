@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Version380", "Version380\Ve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Version530", "Version530\Version530.csproj", "{BC140AF8-159C-4E04-8E4A-44EC903DA8F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Version530-Vic", "Version530-Vic\Version530-Vic.csproj", "{E7C30F66-DEC4-42DE-8967-8096FC9DD2F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{BC140AF8-159C-4E04-8E4A-44EC903DA8F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC140AF8-159C-4E04-8E4A-44EC903DA8F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC140AF8-159C-4E04-8E4A-44EC903DA8F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7C30F66-DEC4-42DE-8967-8096FC9DD2F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7C30F66-DEC4-42DE-8967-8096FC9DD2F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7C30F66-DEC4-42DE-8967-8096FC9DD2F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7C30F66-DEC4-42DE-8967-8096FC9DD2F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
