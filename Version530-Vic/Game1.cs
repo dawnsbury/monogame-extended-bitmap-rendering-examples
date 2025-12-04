@@ -10,6 +10,7 @@ public class Game1 : Game
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
     private BitmapFont _bitmapFont;
+    private BitmapFont _bitmapFont2;
 
     public Game1()
     {
@@ -29,6 +30,7 @@ public class Game1 : Game
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
         _bitmapFont = Content.Load<BitmapFont>("Mia32");
+        _bitmapFont2 = Content.Load<BitmapFont>("Mia8");
 
         // TODO: use this.Content to load your game content here
     }
@@ -46,11 +48,12 @@ public class Game1 : Game
 
     protected override void Draw(GameTime gameTime)
     {
-        GraphicsDevice.Clear(Color.CornflowerBlue);
+        GraphicsDevice.Clear(Color.Beige);
 
         // TODO: Add your drawing code here
         _spriteBatch.Begin(SpriteSortMode.Deferred);
         _spriteBatch.DrawString(_bitmapFont, "The effects are determined by the target's Will save.\n\nOn a critical failure, the target becomes dominated\nuntil the end of your next turn or until you fall\nunconscious, whichever comes first.", new Vector2(10,10), Color.Black);
+        _spriteBatch.DrawString(_bitmapFont2, "The effects are determined by the target's Will save.\n\nOn a critical failure, the target becomes dominated\nuntil the end of your next turn or until you fall\nunconscious, whichever comes first.", new Vector2(10,300), Color.Black);
         _spriteBatch.End();
 
         base.Draw(gameTime);
